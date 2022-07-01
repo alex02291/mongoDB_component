@@ -1,0 +1,20 @@
+{
+  "title": "Mongodb Connector",
+  "description": "Mongodb Connector",
+  "docsUrl": "",
+  "buildType": "docker",
+  "credentials": {
+  },
+  "triggers": {
+    "getData": {
+      "title": "Mongodb Connector",
+      "main": "./lib/triggers/mongodb.js"
+    }
+  },
+  "actions": {
+    "getDataAction": {
+      "title": "Mongodb Connector",
+      "main": "./lib/actions/testAction.js"
+    }
+  }
+}
