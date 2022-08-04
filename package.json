@@ -6,7 +6,8 @@
     "bunyan": "^1.8.15",
     "bunyan-format": "^0.2.1",
     "express": "^4.18.1",
-    "mongodb": "^4.7.0"
+    "mongodb": "^4.7.0",
+    "rabbitmqcg-nxg-oih": "^0.2.2"
   },
   "name": "mongodb-component",
   "description": "For test the component before convert in a docker image, execute `node test/test.js` or `nodemon test/test.js`  or well `npm run test`",
